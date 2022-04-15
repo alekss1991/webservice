@@ -1,0 +1,28 @@
+2022/04/14 20:34:01 [notice] 1#1: using the "epoll" event method
+2022/04/14 20:34:01 [notice] 1#1: nginx/1.20.2
+2022/04/14 20:34:01 [notice] 1#1: OS: Linux 5.4.0-104-generic
+2022/04/14 20:34:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/14 20:34:01 [notice] 1#1: start worker processes
+2022/04/14 20:34:01 [notice] 1#1: start worker process 7
+2022/04/14 20:34:01 [notice] 1#1: start worker process 8
+2022/04/14 20:34:01 [notice] 1#1: start worker process 9
+2022/04/14 20:34:01 [notice] 1#1: start worker process 10
+2022/04/14 20:36:41 [notice] 1#1: using the "epoll" event method
+2022/04/14 20:36:41 [notice] 1#1: nginx/1.20.2
+2022/04/14 20:36:41 [notice] 1#1: OS: Linux 5.4.0-104-generic
+2022/04/14 20:36:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/14 20:36:41 [notice] 1#1: start worker processes
+2022/04/14 20:36:41 [notice] 1#1: start worker process 7
+2022/04/14 20:36:41 [notice] 1#1: start worker process 8
+2022/04/14 20:36:41 [notice] 1#1: start worker process 9
+2022/04/14 20:36:41 [notice] 1#1: start worker process 10
+2022/04/14 20:37:52 [error] 8#8: *23 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.50.100.253, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "seychelles.oe.metinvest.com", referrer: "http://seychelles.oe.metinvest.com/"
+2022/04/14 20:40:21 [notice] 1#1: using the "epoll" event method
+2022/04/14 20:40:21 [notice] 1#1: nginx/1.20.2
+2022/04/14 20:40:21 [notice] 1#1: OS: Linux 5.4.0-104-generic
+2022/04/14 20:40:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/14 20:40:21 [notice] 1#1: start worker processes
+2022/04/14 20:40:21 [notice] 1#1: start worker process 8
+2022/04/14 20:40:21 [notice] 1#1: start worker process 9
+2022/04/14 20:40:21 [notice] 1#1: start worker process 10
+2022/04/14 20:40:21 [notice] 1#1: start worker process 11
