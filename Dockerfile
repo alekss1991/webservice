@@ -39,5 +39,5 @@ COPY ./nginx/config/nginx.conf /etc/nginx/
 CMD ["nginx", "-g", "daemon off;"]
 
 # Проверка ответа по 80 порту
-HEALTHCHECK --retries=3 --interval=3s \
+HEALTHCHECK --retries=3 --interval=3s\
   CMD curl -f http://localhost:80/ || exit 1

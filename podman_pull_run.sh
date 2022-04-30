@@ -1,13 +1,14 @@
 #!/bin/bash
 
 #Запускаем собранный контейнер + пробрасываем тома:
-docker container run -d \
+podman container run -d \
  -p 80:80 \
  -v ${PWD}/nginx/html:/usr/share/nginx/html \
- --restart on-failure \
- 12aleks211/webservice:0.0.1
+ --health-cmd 'curl http://localhost:80/' \
+ --health-retries 3 --health-interval '1s' \
+ docker.io/12aleks211/webservice:latest
 
-docker container ps -a
+podman ps -a
 sleep 3
 echo '++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
-docker container ps -a
+podman ps -a
